@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  db:
+    image: mysql:8.0
+    command:
+    --default-authentication-plugin=mysql_na
+    tive_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      TZ: "ASIA/Tokyo"
+      BIND-DDress:127
